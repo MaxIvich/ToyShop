@@ -27,6 +27,10 @@ public class Toy {
 
     }
 
+    public Toy(String name) {
+        this.name = name;
+    }
+
     public void setWeight(double weight) {
         if(weight <= 100 && weight >= 1){
             this.weight = weight;
